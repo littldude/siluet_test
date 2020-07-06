@@ -289,10 +289,18 @@ ul {
     }
 
     .sidebar__item--top {
-        position: -webkit-sticky;
+        position: -webkit-static;
         top: 0;
         bottom: 0;
         margin-bottom: 0;
-        position: sticky;
+        position: static;
+    }
+    .header__item--more {
+        margin-top: 20px;
+    }
+
+   
+    .footer__item--right {
+       margin-top: 20px;
     }
 }
